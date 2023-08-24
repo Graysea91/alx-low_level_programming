@@ -8,13 +8,13 @@
 
 char *string_toupper(char *n)
 {
-	int i = 0;
+       char *ptr = n;
 
 	while (n[i] != '\0')
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			n[i] = n[i] - 32;
+			n[i] =;
 		}
 		i++;
 	}
