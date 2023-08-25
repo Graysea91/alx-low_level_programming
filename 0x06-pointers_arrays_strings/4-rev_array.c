@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * reverse_array - reverse the content of an array
- * @a: input value
- * @n: input value
- */
+* reverse_array - reverse the content of an array
+* @a: input value
+* @n: input value
+*/
 
 void reverse_array(int *a, int n)
 {

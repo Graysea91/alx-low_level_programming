@@ -2,21 +2,21 @@
 
 /**
 * *string_toupper - changing to upper case
-* @n: input value
+* @str: input value
 * Return: always 0
 */
 
-char *string_toupper(char *n)
+char *string_toupper(char *str)
 {
-       char *ptr = n;
+	char *ptr = str;
 
-	while (n[i] != '\0')
+	while (*ptr != '\0')
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
+		if (*ptr >= 'a' && *ptr <= 'z')
 		{
-			n[i] =;
+			*ptr = *ptr - ('a' - 'A');
 		}
-		i++;
+		ptr++;
 	}
-	return (0);
+	return (str);
 }
