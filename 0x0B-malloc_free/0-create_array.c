@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
 * create_array - creating an array
@@ -7,7 +7,7 @@
 * @c: string character
 * Return: ptr
 */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *ptr = (char *)malloc(size * sizeof(char));
