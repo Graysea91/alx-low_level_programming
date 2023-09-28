@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * binary_to_uint - convert to unsigned 
+ * binary_to_uint - convert to unsigned
  * @b:  pointer
  * Return: value
  */
