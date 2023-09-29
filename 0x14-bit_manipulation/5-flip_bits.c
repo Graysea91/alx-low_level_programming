@@ -13,7 +13,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned long int atn;
 	unsigned long int pry = n ^ m;
 
-	for (k = 63; b >= 0; b--)
+	for (k = 63; k >= 0; b--)
 	{
 		atn = pry >> b;
 		if (atn & 1)
